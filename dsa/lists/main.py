@@ -18,4 +18,4 @@ print(type(a[4]))  # bool
 
 b = list((1,2,3,4,5,'Six',7,8,'nine'))
 
-print(b[8])
+print(b[8])    
