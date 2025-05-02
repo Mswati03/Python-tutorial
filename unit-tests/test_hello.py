@@ -1,7 +1,8 @@
 from hello import hello
 
-def test_hello():
-    assert hello("world") == "Hello, world!"
-    assert hello("Alice") == "Hello, Alice!"
+def test_default():
     assert hello() == "Hello, world!"  # Test default value
-    assert hello("Bob") == "Hello, Bob!"  # Test with a different name
+    
+
+def test_argument():
+    assert hello("Charlie") == "Hello, Charlie!"  # Test with a different name
